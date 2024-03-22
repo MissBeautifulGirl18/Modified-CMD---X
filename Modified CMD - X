@@ -1343,13 +1343,13 @@ function sFLY(vfly)
 			end
 		elseif KEY:lower() == 'q' then
 			if vfly then
-				CONTROL.Q = speedofthevfly
+				CONTROL.Q = speedofthevfly*2
 			else
 				CONTROL.Q = speedofthefly
 			end
 		elseif KEY:lower() == 'e' then
 			if vfly then
-				CONTROL.E = -speedofthevfly
+				CONTROL.E = -speedofthevfly*2
 			else
 				CONTROL.E = -speedofthefly
 			end
